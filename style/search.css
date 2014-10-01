@@ -1,0 +1,17 @@
+@font-face {
+	font-family: "Search";
+	src: url("fonts/search.eot");
+	src: url("fonts/search.eot#iefix") format("embedded-opentype"),
+	url("fonts/search.woff") format("woff"),
+	url("fonts/search.ttf") format("truetype"),
+	url("fonts/search.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: "Search";
+font-style: normal;
+}.flaticon-search:before {
+	content: "\e000";
+}
